@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'ArcadeClassic';
+    src: url('../fonts/ARCADECLASSIC.TTF') format('truetype');
+    
+}
+
+
+body {
+    font-family: 'Press Start 2P';
+    background-color: rebeccapurple;
+    line-height: 1.5;
+    margin-left:auto;
+    color: azure;
+
+}
+
+nav{
+
+    background-image: url("https://img.freepik.com/free-vector/pixel-art-vacation-background_52683-86708.jpg?size=626&ext=jpg&ga=GA1.2.1611917427.1681055809&semt=ais");
+    margin-top: -11px;
+    padding: 10px;
+
+    position: static;
+    WIDTH: 100%;
+
+}
+nav ul {
+
+    color: white;
+    list-style-type: none;
+
+}
+nav ul a {
+    color: white;
+}
+nav li {
+    display: inline-block;
+    width: 20%;
+    margin: 0 10px;
+}
+
+
+main {
+    position: relative;
+    margin: 100px;
+    background-color: mediumpurple;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Press Start 2P';
+    line-height: 1.5;
+    overflow: scroll;
+}
+h1 {
+    color: lightgrey;
+}
+
+table{
+
+   text-align: left;
+    line-height: 40px;
+    background-color: #554C80 ;
+    overflow: scroll;
+}
+table th{
+    text-align: left;
+}
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-vector/pixel-art-vacation-background_52683-86708.jpg?size=626&ext=jpg&ga=GA1.2.1611917427.1681055809&semt=ais");
+    color: darkgrey;
+    text-align: center;
+
+}
+footer p {
+    margin: 1;
+    padding: 1;
+}

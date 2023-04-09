@@ -3,11 +3,198 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <l
-    <title>Static Website CheatSheet</title>
+    <link rel="stylesheet" href=styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href=https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <title>CheatSheet</title>
 </head>
 <body>
-    <header?
+
+
+
+    <header>
+
+        <div>
+            <nav>
+                <ul>
+                    <li>WebDev CheatSheet</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#HTML-Heading">HTML</a></li>
+                    <li><a href="#CSS-Heading">CSS</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+            
+            <article>
+                    <div>
+                        <img src=""
+                    </div>
+                   <div class="introduction">
+                    <h1>HTML</h1>
+                    <p>HTML is the standard markup language for creating Web pages.</p>
+                    <p>HTML stands for Hyper Text Markup Language</p>
+                    <p>HTML describes the structure of a Web page</p>
+                    <p>HTML consists of a series of elements</p>
+                    <p>HTML elements tell the browser how to display the content</p>
+                    <p>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</p>
+                   </div>
+
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Element</th>
+                            <th>Description</th>
+                        </tr>
+                        </thead>
+                        <tr>
+                            <td>&lt;html&gt;</td>
+                            <td>Defines the root of an HTML document.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;head&gt;</td>
+                            <td>Contains metadata about the document, including the title and links to CSS stylesheets and JavaScript files.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;title&gt;</td>
+                            <td>Sets the title of the document that appears in the browser's title bar.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;body&gt;</td>
+                            <td>Contains the visible content of the document, including headings, paragraphs, and images.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;h1&gt;&lt;h6&gt;</td>
+                            <td>Defines headings of varying sizes.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;p&gt;</td>
+                            <td>Defines a paragraph of text.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;a&gt;</td>
+                            <td>Creates a hyperlink to another webpage or resource.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;img&gt;</td>
+                            <td>Embeds an image into the document.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;ul&gt;&lt;li&gt;</td>
+                            <td>Creates an unordered list of items.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;ol&gt;&lt;li&gt;</td>
+                            <td>Creates an ordered list of items.</td>
+                        </tr>
+
+                        <tr>
+                            <td>&lt;div&gt;</td>
+                            <td>Defines a container for grouping HTML elements and applying styles.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;span&gt;</td>
+                            <td>Defines a small section of text that can be styled separately from the surrounding text.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;form&gt;</td>
+                            <td>Creates a form for user input, such as text boxes, radio buttons, and checkboxes.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;input&gt;</td>
+                            <td>Defines an input field for user input.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;button&gt;</td>
+                            <td>Creates a clickable button.</td>
+                        </tr>
+                    </table>
+
+
+
+                <div class="introduction" >
+                    <h1 id="CSS-Heading">CSS</h1>
+                    <p>CSS stands for Cascading Style Sheets</p>
+                    <p>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</p>
+                    <p>CSS saves a lot of work. It can control the layout of multiple web pages all at once</p>
+                    <p>External stylesheets are stored in CSS files</p>
+                </div>
+
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Selector</th>
+                        <th>Description</th>
+                        <th>Example</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Type Selector</td>
+                        <td>Selects all elements of a specific type</td>
+                        <td>p { color: red; }</td>
+                    </tr>
+                    <tr>
+                        <td>ID Selector</td>
+                        <td>Selects an element with a specific ID</td>
+                        <td>#header { background-color: blue; }</td>
+                    </tr>
+                    <tr>
+                        <td>Class Selector</td>
+                        <td>Selects elements with a specific class</td>
+                        <td>.button { border: 1px solid black; }</td>
+                    </tr>
+                    <tr>
+                        <td>Descendant Selector</td>
+                        <td>Selects an element that is a descendant of another element</td>
+                        <td>nav a { text-decoration: none; }</td>
+                    </tr>
+                    <tr>
+                        <td>Child Selector</td>
+                        <td>Selects an element that is a direct child of another element</td>
+                        <td>ul > li { padding: 10px; }</td>
+                    </tr>
+                    <tr>
+                        <td>Adjacent Sibling Selector</td>
+                        <td>Selects an element that is immediately preceded by another element</td>
+                        <td>h2 + p { font-weight: bold; }</td>
+                    </tr>
+                    <tr>
+                        <td>General Sibling Selector</td>
+                        <td>Selects elements that are siblings of another element</td>
+                        <td>h2 ~ p { color: gray; }</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+
+            </article>
+
+            <aside>
+                <div>
+                        <h2>Content Table</h2>
+                        <ul>
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">CSS</a></li>
+
+                        </ul>
+                </div>
+            </aside>
+
+    </main>
+
+
+
+    <footer>
+        <div>
+            <p>© 2023 WebDev CheatSheet<br>by zakaria basraoui</p>
+        </div>
+    </footer>
+
 </body>
 </html>
