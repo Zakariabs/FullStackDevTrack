@@ -15,3 +15,9 @@ In this project, you’ll be building your own reference cheat sheet to help you
 - [ ] Your site uses HTML tables to display the documentation. Be sure to label the columns in your HTML.
 - [ ] Your site should utilize a custom color scheme. You can use any of the named CSS colors.
 - [ ] Your site should use custom styles for any code such as HTML tags (like h1) or CSS properties or values (like font-family). Represent code using a monospace font family and a different background color. 
+
+## Result
+     margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
