@@ -13,7 +13,7 @@ For more information on the CodeCademy Full Stack Developer Track, please visit:
 * [Contact](#contact)
 
 ## Projects
-* [Build your own cheatsheet](https:zakariabs.github.io/fullstackdevtrack/ChallengeProject
+* [Build your own cheatsheet](https://zakariabs.github.io/FullStackDevTrack/Challenge%20Projects/1_Build_Your_Own_CheatSheet/)
 
 ## Notes
 
